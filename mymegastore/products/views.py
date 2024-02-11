@@ -5,4 +5,4 @@ def index(request):
 
 
 def products(request):
-    return render(request, 'products.html')
+    return render(request, 'products.html', name = 'products')

@@ -9,6 +9,7 @@ def index(request):
 
 def products(request):
     context = {
+        'title' : 'myramasa666',
         'products' : [
             {'img' : '/static/vendor/img/products/Blue-jacket-The-North-Face.png' ,
              'name' : 'Синяя куртка The North Face',

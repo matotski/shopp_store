@@ -3,4 +3,8 @@ from django.db import models
 # Create your models here.
 
 class User (AbstractUser):
-    image = models.ImageField(upload_to = 'users_iamge', null = True, blank = True)
+    image = models.ImageField(upload_to = 'users_image', null = True, blank = True)
+
+
+
+
